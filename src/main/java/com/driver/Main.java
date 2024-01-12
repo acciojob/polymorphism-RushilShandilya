@@ -13,10 +13,10 @@ public class Main {
         }
     }
    public static void main(String[] args){
-       Product productObject = new Product();
-       productObject.product(2,3);
-       productObject.product(2,3,4);
-       productObject.product(2,3);
+       Product p= new Product();
+       System.out.println(p.product(2,3));
+       System.out.println(p.product(2,3,4));
+       System.out.println(p.product(2.0,3.0));
 
    }
 }
